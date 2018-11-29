@@ -10,7 +10,9 @@
 
 Adding payara-embedded-(web|all) as a "provided" dependency
 
-Your integration testing blows up (jax-rs client against wiremock)
+Your integration testing blows up (when running jax-rs client against fx. wiremock)
+
+payara-embedded-all is needed for: fish.payara.cdi.jsr107.impl.NamedCache annotation
 
 ## Demonstration
 
